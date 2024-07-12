@@ -89,7 +89,7 @@ const Header = () => {
           <div className="flex justify-center items-center">
             <Link
               to="/profile"
-              className="w-auto button md:w-[210px] h-[46px] rounded-lg flex items-center justify-center gap-2 md:gap-[10px] shadow-md p-2 md:p-[10px]  bg-cover"
+              className="w-auto button connect md:w-[210px] h-[46px] rounded-lg flex items-center justify-center gap-2 md:gap-[10px] shadow-md p-2 md:p-[10px]  bg-cover"
             >
               <img src={wallet} className="w-[20px] h-auto md:h-[22.05px]" alt="wallet" />
               <span className=" md:inline">connect wallet</span>

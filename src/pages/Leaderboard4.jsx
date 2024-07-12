@@ -32,7 +32,7 @@ function Leaderboard4() {
         <div className="text-white px-2  md:pl-10 py-2 bg-[#111219]">
             <div className='max-w-[1400px] mx-auto'>
 
-         
+
                 <div className="flex flex-col lg:flex-row gap-5">
                     <div className="flex flex-col lg:flex-row gap-5">
                         <div style={{
@@ -187,30 +187,29 @@ function Leaderboard4() {
                 </div>
 
                 <div className="lg:w-[900px] h-[1.5px] mx-5 bg-[#FFE37E]"></div>
-
                 <div className="overflow-x-auto">
 
                     <div className="lg:w-[1000px] max-w-[1000px]">
                         <div className="text-[#8F8C8C] flex ">
-                            <div className="py-2 px-4 text-start  min-w-[200px]  font-normal">Rank</div>
-                            <div className="py-2 px-4 text-start  min-w-[200px]  font-normal">Player</div>
-                            <div className="py-2 px-4 text-start  min-w-[200px]  font-normal">Won/Lost</div>
-                            <div className="py-2 px-4 text-start   min-w-[200px]  font-normal">Hands Played</div>
-                            <div className="py-2 px-4 text-start  min-w-[100px]  font-normal">Tokens Won</div>
+                            <div className="py-2  text-start  min-w-[200px]  font-normal">Rank</div>
+                            <div className="py-2  text-start  min-w-[200px]  font-normal">Player</div>
+                            <div className="py-2  text-start  min-w-[200px]  font-normal">Won/Lost</div>
+                            <div className="py-2  text-start   min-w-[200px]  font-normal">Hands Played</div>
+                            <div className="py-2  text-start  min-w-[100px]  font-normal">Tokens Won</div>
                         </div>
                         {leaderboardData.map((player, index) => (
-                            <div key={index} className="flex  items-center lg:hover:border group text-white hover:box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
-                                <div className="px-4 text-start  flex items-center min-w-[200px] lg:h-[15px] ">#{player.rank}</div>
+                            <div key={index} className="flex items-center lg:hover:border group text-white hover:box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
+                                <div className=" text-start  flex items-center min-w-[200px] lg:h-[15px] ">#{player.rank}</div>
                                 <div className="text-start    items-center min-w-[200px]  lg:h-[15px] flex gap-1">
                                     <img src={player.img} alt="" className="w-6 h-6" />
                                     {player.player}
                                 </div>
-                                <div className="px-4 min-w-[200px] flex items-center  lg:h-[15px] text-start z-10">
+                                <div className=" min-w-[200px] flex items-center  lg:h-[15px] text-start z-10">
                                     <span className="group-hover:text-[#2D9161]">{player.won}</span>/
                                     <span className="group-hover:text-[#FF426B]">{player.lost}</span>
                                 </div>
-                                <div className="px-4 min-w-[200px]  flex items-center lg:h-[15px] text-start">{player.handsPlayed}</div>
-                                <div className="px-4 min-w-[100px]  flex items-center lg:h-[15px] text-start">
+                                <div className=" min-w-[200px]  flex items-center lg:h-[15px] text-start">{player.handsPlayed}</div>
+                                <div className=" min-w-[100px]  flex items-center lg:h-[15px] text-start">
                                     {player.tokensWon} <span className="text-[#8F8C8C]">{player.currency}</span>
                                 </div>
                             </div>

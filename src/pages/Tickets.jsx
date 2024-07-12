@@ -59,7 +59,7 @@ function Tickets() {
                                 <div>+ 1 -</div>
                             </p>
                         </div>
-                        <button className='px-3 py-2 rounded-lg b font-bold text-[#111219]'>Buy Now</button>
+                        <button className='px-3 py-2 connect rounded-lg b font-bold text-[#111219]'>Buy Now</button>
                     </div>
                 ))}
             </div>

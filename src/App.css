@@ -35,3 +35,8 @@ background-image:url(assets/a.svg) ;
      .b{background: rgb(251,210,111);
         background: linear-gradient(180deg, rgba(251,210,111,1) 0%, rgba(179,150,80,1) 100%);
     }
+
+    .connect:hover{
+        background: rgb(251,210,111);
+            background: linear-gradient(0deg, rgba(251,210,111,1) 0%, rgba(179,150,80,1) 100%);
+        }

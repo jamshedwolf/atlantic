@@ -33,7 +33,7 @@ function Hero() {
                             sit amet sapien fringilla, mattis ligula consectetur, ultrices<br />
                             mauris. Maecenas vitae mattis tellus. Nullam quis<br />
                             imperdiet augue.</p>
-                        <div className="flex gap-2 text-center lg:gap-6"><button className="b px-4 py-1 text-black rounded-[7px] font-bold items-center justify-center text-[10px] lg:text-[15px] flex gap-1">Leaderboard <img src={leader} alt="" className="" /></button>
+                        <div className="flex gap-2 text-center lg:gap-6"><button className="b px-4 connect py-1 text-black rounded-[7px] font-bold items-center justify-center text-[10px] lg:text-[15px] flex gap-1">Leaderboard <img src={leader} alt="" className="" /></button>
                             <button className="border-[#FBD26F] border flex px-4 py-1 items-center justify-center rounded-[7px] text-[10px] lg:text-[15px] gap-1">Watch Video <img src={watch} alt="" className="" /></button>
                         </div>
 

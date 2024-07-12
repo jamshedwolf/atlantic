@@ -1,0 +1,37 @@
+
+
+
+#leader:hover{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(66, 61, 61, 0.329) 0%, rgba(71, 65, 65, 0.712) 45%, rgba(0,0,0,1) 78%) !important;
+}
+
+.button{
+
+    background: rgb(248,209,112);
+background: linear-gradient(-120deg, hwb(43 44% 3%) 20%, #f8d072da 48%, rgb(247, 207, 107) 68%);
+}
+.faq{background: rgb(255,255,255);
+    background: linear-gradient(130deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.8463760504201681) 55%, rgba(255,255,255,0.6362920168067228) 84%, rgba(255,255,255,0) 100%);}
+
+
+    @font-face {
+        font-family:"clash display";
+        src: url(./assets/OTF/ClashDisplay-Light.otf);
+    }
+    .clash{
+        font-family: "clash display";
+    }
+     body{
+
+
+        background-color:#111219;
+     }
+     .a{
+background-image:url(assets/a.svg) ;
+
+
+     }
+     .b{background: rgb(251,210,111);
+        background: linear-gradient(180deg, rgba(251,210,111,1) 0%, rgba(179,150,80,1) 100%);
+    }

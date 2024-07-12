@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import card from "../assets/card.svg"
+import card from "../assets/card.webp"
 import crd2 from "../assets/crd2.svg"
 import f1 from "../assets/f1.svg"
 import f2 from "../assets/f2.svg"

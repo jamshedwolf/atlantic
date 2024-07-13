@@ -40,3 +40,19 @@ background-image:url(assets/a.svg) ;
         background: rgb(251,210,111);
             background: linear-gradient(0deg, rgba(251,210,111,1) 0%, rgba(179,150,80,1) 100%);
         }
+        /* Main Container */
+
+
+  
+    .clip{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 18% 100%, 0 74%);
+
+
+    }
+  
+
+  
+  /* The time controls section */
+  
+  
+  

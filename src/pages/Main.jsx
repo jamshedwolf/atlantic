@@ -3,6 +3,7 @@ import Faqs from './Faqs'
 import Tickets from './Tickets'
 import Tickets2 from './Tickets2'
 import Hero from './Hero'
+import Video from './Video'
 
 function Main() {
   return (
@@ -11,8 +12,11 @@ function Main() {
 
     
 <Hero/>
+<Video/>
 <Tickets/>
 <Tickets2/>
+
+
 
     <Faqs/>
   

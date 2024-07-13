@@ -62,14 +62,14 @@ const Header = () => {
 
         <ul className={`flex-col lg:flex-row gap-6 mt-4  lg:mt-0 ${isMenuOpen ? "flex text-center " : "hidden"} lg:flex`}>
           <li>
-            <Link   to="/leaderboard" className="cursor-pointer">Leaderboard</Link>
+            <Link onClick={toggleMenu}   to="/leaderboard" className="cursor-pointer">Leaderboard</Link>
           </li>
           <li>
-            <NavLink spy="true"  smooth="true" className="cursor-pointer" to="tickets">Tickets</NavLink>
+            <NavLink  onClick={toggleMenu} spy="true"  smooth="true" className="cursor-pointer" to="tickets">Tickets</NavLink>
 
           </li>
           <li>
-            <NavLink  spy="true"  smooth="true"  className="cursor-pointer" to="faq">FAQ</NavLink>
+            <NavLink onClick={toggleMenu}  spy="true"  smooth="true"  className="cursor-pointer" to="faq">FAQ</NavLink>
           </li>
         </ul>
 

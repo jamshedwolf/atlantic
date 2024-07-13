@@ -188,7 +188,7 @@ function Leaderboard3() {
 
                 <div className="lg:w-[900px] h-[1.5px] mx-5 bg-[#FFE37E]"></div>
 
-                <div className="overflow-x-auto">
+                <div className="overflow-x-auto lg:pb-40">
 
                     <div className="lg:w-[1000px] max-w-[1000px]">
                         <div className="text-[#8F8C8C] flex ">

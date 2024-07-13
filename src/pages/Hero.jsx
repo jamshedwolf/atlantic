@@ -19,7 +19,7 @@ function Hero() {
                     backgroundPosition: 'center',
 
                 }}
-                className="w-full  p-5 lg:p-0     a ">
+                className="w-full   p-5 lg:p-0     a ">
 
 
 

@@ -60,13 +60,19 @@ const Header = () => {
 
         </div>
 
-        <ul className={`flex-col lg:flex-row gap-6 mt-4  lg:mt-0 ${isMenuOpen ? "flex text-center " : "hidden"} lg:flex`}>
+        <ul className={`flex-col lg:flex-row gap-6 mt-4  lg:ml-10 lg:mt-0 ${isMenuOpen ? "flex text-center " : "hidden"} lg:flex`}>
           <li>
             <Link onClick={toggleMenu}   to="/leaderboard" className="cursor-pointer">Leaderboard</Link>
           </li>
           <li>
+            <Link onClick={toggleMenu}   to="/Profile" className="cursor-pointer">Profile</Link>
+          </li>
+          <li>
             <NavLink  onClick={toggleMenu} spy="true"  smooth="true" className="cursor-pointer" to="tickets">Tickets</NavLink>
 
+          </li>
+          <li>
+            <Link onClick={toggleMenu}   to="/refer" className="cursor-pointer">Refer</Link>
           </li>
           <li>
             <NavLink onClick={toggleMenu}  spy="true"  smooth="true"  className="cursor-pointer" to="faq">FAQ</NavLink>

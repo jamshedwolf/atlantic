@@ -125,8 +125,8 @@ function Video() {
                     
           
                 </video>
-                <div className={overlay? "hidden" :'bg-[#00000063] absolute  flex items-center justify-center top-[0px] w-full h-full clash font-extrabold  text-[10px] lg:text-[35px] right-[0px] text-white z-[49]'}>How the Pools work & How to buy tickets?</div>
-                  <div className="flex z-50  lg:gap-3 w-full lg:w-auto  absolute bottom-0 lg:right-[60px] bg-[#0303036b] items-center py-3 ">
+                <div className={overlay? "hidden" :'bg-[#000000c9] absolute  flex pt-4 justify-center top-[0px] w-full h-full clash font-extrabold  text-[10px] lg:text-[35px] right-[0px] text-white z-[49]'}>How the Pools work & How to buy tickets?</div>
+                  <div className="flex z-50  lg:gap-3 w-full lg:w-auto  absolute bottom-0 lg:right-[60px] items-center py-3 ">
                 <div className="controlsContainer flex items-center justify-around  w-[1200px] mx-auto  gap-3">
                     <div className="volumeContainer hidden lg:flex items-center gap-2">
                         {muted ? (

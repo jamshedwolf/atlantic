@@ -10,7 +10,7 @@ function Leaderboardnav() {
 
   return (
     <div>
-      <div className="max-w-[1400px] sticky mx-auto">
+      <div className="max-w-[1400px]  mx-auto">
         <div className="flex gap-5 flex-col lg:w-[930px] lg:flex-row items-center py-5 justify-between">
           <p className="text-5xl text-center text-white">Leaderboard</p>
 

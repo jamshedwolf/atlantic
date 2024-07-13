@@ -47,7 +47,7 @@ function Faqs() {
                             )}
                         </p>
                         {openIndex === index && (
-                            <div className="bg-[#111219] text-start p-8 clash text-[10px] lg:text-[15px] transition-all ease-linear duration-300 text-white">
+                            <div className="bg-[#111219] text-start p-2 lg:p-5 clash text-[10px] lg:text-[15px] transition-all ease-linear duration-300 text-white">
                                 {item.content}
                             </div>
                         )}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import poolsbg from "../assets/poolscrd.svg"
+import poolsbg from "../assets/poolscrd.webp"
 import pools2 from "../assets/pools2.svg"
 import img1 from "../assets/m1.svg"
 import img2 from "../assets/m2.svg"

@@ -1,5 +1,5 @@
 import React from 'react';
-import poolsbg from "../assets/poolscrd.svg";
+import poolsbg from "../assets/poolscrd.webp";
 import baloon from "../assets/baloon.svg";
 import k10 from "../assets/10k.svg";
 import k3 from "../assets/3k.svg";
@@ -33,7 +33,7 @@ function Tickets() {
                 </div>
                 <div className="text-[#AAAAAA] mt-5">Purchase a ticket to win big money</div>
             </div>
-            <div className="max-w-[1400px] pl-4 md:pl-0 lg:w-[1200px] flex-wrap clash gap-5 mx-auto flex flex-col lg:flex-row items-center justify-center">
+            <div className="max-w-[1400px] pl-4 md:pl-0 lg:w-[1200px] flex-wrap clash gap-5 mx-auto flex flex-col lg:flex-row  items-center justify-center">
                 {ticketData.map((ticket, index) => (
                     <div
                         key={index}

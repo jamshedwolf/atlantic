@@ -34,7 +34,7 @@ function Leaderboard() {
             <div className='max-w-[1400px] mx-auto'>
 
               
-                <div className="flex flex-col lg:flex-row gap-5">
+                <div className="flex flex-col items-center  lg:items-start lg:flex-row gap-5">
                     <div className="flex flex-col lg:flex-row gap-5">
                         <div style={{
                             backgroundImage: `url(${card})`,

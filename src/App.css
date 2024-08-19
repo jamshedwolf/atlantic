@@ -1,10 +1,7 @@
 
 
 
-#leader:hover{
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(66, 61, 61, 0.329) 0%, rgba(71, 65, 65, 0.712) 45%, rgba(0,0,0,1) 78%) !important;
-}
+
 
 .button{
 
@@ -55,4 +52,11 @@ background-image:url(assets/a.svg) ;
   /* The time controls section */
   
   
-  
+  @media (min-width:768px) {
+
+    .box:hover{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(66, 61, 61, 0.329) 0%, rgba(71, 65, 65, 0.712) 45%, rgba(0,0,0,1) 78%) !important;
+        }
+    
+  }

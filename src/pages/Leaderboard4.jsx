@@ -198,7 +198,7 @@ function Leaderboard4() {
                             <div className="py-2  text-start  min-w-[100px]  font-normal">Tokens Won</div>
                         </div>
                         {leaderboardData.map((player, index) => (
-                            <div key={index} className="flex items-center lg:hover:border group text-white hover:box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
+                            <div key={index} className="flex items-center box lg:hover:border group text-white hover:box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
                                 <div className=" text-start  flex items-center min-w-[200px] lg:h-[15px] ">#{player.rank}</div>
                                 <div className="text-start    items-center min-w-[200px]  lg:h-[15px] flex gap-1">
                                     <img src={player.img} alt="" className="w-6 h-6" />

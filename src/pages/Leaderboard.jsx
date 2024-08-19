@@ -200,7 +200,7 @@ function Leaderboard() {
                             <div className="py-2  text-start  min-w-[100px]  font-normal">Tokens Won</div>
                         </div>
                         {leaderboardData.map((player, index) => (
-                            <div key={index} className="flex items-center lg:hover:border group text-white hover:box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
+                            <div key={index} className="flex items-center lg:hover:border group  pr-0 text-white box rounded-lg border-[#FFE37E] mb-2 py-2" id='leader'>
                                 <div className=" text-start  flex items-center min-w-[200px] lg:h-[15px] ">#{player.rank}</div>
                                 <div className="text-start    items-center min-w-[200px]  lg:h-[15px] flex gap-1">
                                     <img src={player.img} alt="" className="w-6 h-6" />
@@ -211,7 +211,7 @@ function Leaderboard() {
                                     <span className="group-hover:text-[#FF426B]">{player.lost}</span>
                                 </div>
                                 <div className=" min-w-[200px]  flex items-center lg:h-[15px] text-start">{player.handsPlayed}</div>
-                                <div className=" min-w-[100px]  flex items-center lg:h-[15px] text-start">
+                                <div className=" min-w-[100px]   flex items-center lg:h-[15px] text-start">
                                     {player.tokensWon} <span className="text-[#8F8C8C]">{player.currency}</span>
                                 </div>
                             </div>
